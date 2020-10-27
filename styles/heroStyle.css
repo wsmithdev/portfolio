@@ -1,0 +1,75 @@
+/* Hero Section */
+#hero {
+  background-image: url(../img/landing-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+}
+
+#hero .hero {
+  min-width: 100vw;
+  margin: 0 auto;
+  padding: 0 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#hero h1:first-child {
+  padding-top: 200px;
+}
+
+#hero .hero span {
+  color: orange;
+}
+#chevron {
+    display: block;
+    color: orange;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 5rem;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+/* End Hero Section */
+
+@media screen and (max-width: 768px) {
+  #hero .hero {
+    
+    display: block;
+  }
+
+  #hero h1:first-child {
+    padding-top: 150px;
+  }
+
+  #hero h1 {
+    font-size: 4rem;
+  }
+
+  #chevron {
+    margin-top: 100px;
+  }
+}
+
+@keyframes leaves {
+  0% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+  }
+  100% {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+  }
+}
+
+#chevron {
+  animation: leaves 0.5s ease-in infinite alternate-reverse;
+}

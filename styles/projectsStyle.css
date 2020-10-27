@@ -1,0 +1,199 @@
+/* Projects section */
+#projects {
+  background-color: #d8d8d8;
+  overflow-x: hidden;
+  
+}
+
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto 80px auto;
+    
+  }
+  #projects .projects-header h1 {
+    margin-bottom: 50px;
+  }
+  #projects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #projects .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    /* overflow: hidden; */
+    border-radius: 10px;
+ 
+  }
+  #projects .project-info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #464646 0%, #616161 100%);
+    color: white;
+  
+
+  }
+  #projects .project-info h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  #projects .project-info h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  #projects .project-info p {
+    color: white;
+  }
+  #projects span {
+    color: orange;
+  }
+
+  #projects .project-img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #projects .project-img img {
+    transition: 0.3s ease transform;
+    object-fit: contain;
+
+  }
+  #projects .project-item:hover .project-img img {
+    transform: scale(1.2);
+  }
+
+  #project-1-img {
+    background-image: url("../img/project-1/ferrari2.png");
+    background-size: cover;
+  }
+
+  #project-2-img {
+    background-image: url("../img/project-2/space.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-2-img img {
+    height: 60%
+  }
+
+  #project-3-img {
+    background-image: url("../img/project-3/code.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #coming-soon {
+  color: white;
+  font-size: 5rem;
+  }
+
+
+  .project-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-btn {
+    display: block;
+    margin: 2rem 1rem;
+    min-width: 11rem;
+    height: 3rem;
+    border: 2px solid orange;
+    color: orange;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: #464646;
+    letter-spacing: 0.05rem;
+
+    
+  }
+
+  .project-btn:hover {
+    background-color: orange;
+    color: #616161;
+  }
+
+  /* End Projects section */
+
+/* Navbar Media Queries */
+@media screen and (max-width: 768px) {
+  #projects .project-item {
+    flex-direction: column-reverse;
+  }
+  #projects .project-info {
+    width: 98vw;
+    border: none;
+  }
+
+  #projects .project-info h1 {
+    font-size: 3rem;
+    
+  }
+
+  #projects .project-img {
+    width: 98vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+
+  #projects .project-item {
+    flex-direction: row;
+  }
+  #projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  #projects .project-item {
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  #projects .all-projects .project-info {
+    height: 100%;
+  }
+  #projects .all-projects .project-img {
+    height: 100%;
+  }
+
+}
+/* End Media Query For Tablet */
+
+
+

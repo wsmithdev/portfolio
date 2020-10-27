@@ -1,0 +1,49 @@
+/* Footer */
+#footer {
+  background-color: rgb(25, 25, 25);
+}
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+#footer .social-item {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+#footer .social-item i {
+  transition: 0.3s;
+}
+#footer .social-item:hover i {
+  transform: scale(1.2);
+}
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+}
+/* End Footer */
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+}
+/* End Services Section */
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+}
+/* End  Media Query For Desktop */

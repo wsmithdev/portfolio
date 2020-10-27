@@ -1,0 +1,49 @@
+#about {
+  background-color: rgb(75, 75, 75);;
+  min-height: 100vh;
+  color: white;
+}
+
+#about .about {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin: 0 0 4rem 0;
+  font-size: 2.2rem;
+  
+}
+
+.about h2 span {
+  color: orange;
+}
+
+#about .section-title {
+  color: white;
+}
+
+.about p {
+  max-width: 70ch;
+  margin: auto;
+  text-align: left;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    padding-bottom: 50px;
+  }
+
+  .about h2 {
+    margin: 2rem 4rem 4rem 4rem;
+  }
+
+  .about p {
+    margin: 0 4rem;
+    
+    
+  }
+}
