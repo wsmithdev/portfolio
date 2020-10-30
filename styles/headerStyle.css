@@ -34,6 +34,7 @@ cursor: pointer;
   letter-spacing: 0.3rem;
   list-style: none;
   padding: 2rem;
+  cursor: pointer;
 }
 
 .nav-links li:hover {

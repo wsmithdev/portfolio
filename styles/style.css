@@ -206,8 +206,9 @@ p {
     font-size: 4rem;
   }
 }
-
-
+#print-resume {
+  display: none;
+}
 
 
 
