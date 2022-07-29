@@ -193,11 +193,11 @@ project2SeeCodeBtn.addEventListener("click", () => {
 
 // Project 3 buttons 
 const project3VisitSiteBtn = document.querySelector("#project-3-visit-site");
-project2VisitSiteBtn.addEventListener("click", () => {
+project3VisitSiteBtn.addEventListener("click", () => {
   window.open("https://prestigeauto.herokuapp.com/")
 })
 const project3SeeCodeBtn = document.querySelector("#project-3-see-code");
-project2SeeCodeBtn.addEventListener("click", () => {
+project3SeeCodeBtn.addEventListener("click", () => {
   window.open("https://github.com/wsmithdev/prestigeauto")
 })
 
