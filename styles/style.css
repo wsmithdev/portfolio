@@ -155,7 +155,7 @@ p {
 .email-tab {
   display: flex;
   height: 4rem;
-  background-color: rgb(168, 161, 161);
+  background-color: orange;
   font-family: sans-serif;
   transform: translateX(-66%);
   transition: transform 0.2s ease-in;

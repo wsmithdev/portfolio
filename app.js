@@ -83,21 +83,21 @@ chevronBtb.addEventListener("click", () => {
 });
 
 // Scroll to resume section
-const resumeTab = document.querySelector(".resume-tab");
-const resumeNav = document.querySelector("#nav-resume");
-const resumeSection = document.querySelector(".resume");
-const resumeSectionPos =
-  resumeSection.getBoundingClientRect().top + window.pageYOffset + offset;
-resumeTab.addEventListener("click", () => {
-  window.scrollTo({ top: resumeSectionPos, behavior: "smooth" });
-});
-resumeNav.addEventListener("click", () => {
-  window.scrollTo({ top: resumeSectionPos, behavior: "smooth" });
-  // Close navigation menu if in mobile
-  if (window.innerWidth <= 768) {
-    openCloseNav();
-  }
-});
+// const resumeTab = document.querySelector(".resume-tab");
+// const resumeNav = document.querySelector("#nav-resume");
+// const resumeSection = document.querySelector(".resume");
+// const resumeSectionPos =
+//   resumeSection.getBoundingClientRect().top + window.pageYOffset + offset;
+// resumeTab.addEventListener("click", () => {
+//   window.scrollTo({ top: resumeSectionPos, behavior: "smooth" });
+// });
+// resumeNav.addEventListener("click", () => {
+//   window.scrollTo({ top: resumeSectionPos, behavior: "smooth" });
+//   // Close navigation menu if in mobile
+//   if (window.innerWidth <= 768) {
+//     openCloseNav();
+//   }
+// });
 
 // Scroll to about section
 const aboutNav = document.querySelector("#nav-about");
@@ -174,21 +174,31 @@ function ajax(method, url, data, success, error) {
 // Project 1 buttons 
 const project1VisitSiteBtn = document.querySelector("#project-1-visit-site");
 project1VisitSiteBtn.addEventListener("click", () => {
-  window.open("https://prestigeauto.herokuapp.com/")
+  window.open("https://use-it-or-lose-it.surge.sh/")
 })
 const project1SeeCodeBtn = document.querySelector("#project-1-see-code");
 project1SeeCodeBtn.addEventListener("click", () => {
-  window.open("https://github.com/wsmithdev/prestigeauto")
+  window.open("https://github.com/wsmithdev/use-it-or-lose-it")
 })
 
 // Project 2 buttons 
 const project2VisitSiteBtn = document.querySelector("#project-2-visit-site");
 project2VisitSiteBtn.addEventListener("click", () => {
-  window.open("https://iss-tracker.vercel.app/")
+  window.open("https://sb-iss-tracker.herokuapp.com/")
 })
 const project2SeeCodeBtn = document.querySelector("#project-2-see-code");
 project2SeeCodeBtn.addEventListener("click", () => {
-  window.open("https://github.com/wsmithdev/iss-tracker")
+  window.open("https://github.com/wsmithdev/iss")
+})
+
+// Project 3 buttons 
+const project3VisitSiteBtn = document.querySelector("#project-3-visit-site");
+project2VisitSiteBtn.addEventListener("click", () => {
+  window.open("https://prestigeauto.herokuapp.com/")
+})
+const project3SeeCodeBtn = document.querySelector("#project-3-see-code");
+project2SeeCodeBtn.addEventListener("click", () => {
+  window.open("https://github.com/wsmithdev/prestigeauto")
 })
 
 

@@ -60,7 +60,7 @@
         <li id="nav-projects">Projects</li>
         <li id="nav-about">About</li>
         <li id="nav-contact">Contact</li>
-        <li id="nav-resume">Resume</li>
+    
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -92,14 +92,7 @@
         <div>
           <i id="email-tab-logo" class="fa fa-envelope"></i>
         </div>
-      </div>
-      <!-- Resume -->
-      <div class="resume-tab">
-        <div id="resume-tab-text">Resume</div>
-        <div>
-          <i id="resume-tab-logo" class="fa fa-address-card"></i>
-        </div>
-      </div>
+      </div>     
     </div>
     <!-- End of Contact Tabs -->
 
@@ -125,15 +118,13 @@
           <!-- Project 1 -->
           <div class="project-item">
             <div class="project-info">
-              <h1>Prestige Auto Motor Club</h1>
-              <h2><span>Technologies: MERN Stack</span></h2>
+              <h1>Use It Or Lose It</h1>
+              <h2><span>Technologies: ReactJS | NodeJS | PostgreSQL</span></h2>
               <p>
-                A fully responsive web app built for a fictional motor club. The
-                purpose of the site is to allow members as well as prospective
-                members to browse a fleet of cars available to rent. After
-                signing up or logging in, a user can change their profile
-                information as well as upload a profile picture. An admin user
-                can create, update and remove cars from the database.
+                A mobile-first, responsive web application that allows users 
+                to connect their bank accounts and receive reminders via 
+                text/email to use their credit cards to avoid account closures 
+                or loss of rewards due to prolonged inactivity.
               </p>
               <div class="project-btns">
                 <button id="project-1-visit-site" class="project-btn">
@@ -145,19 +136,23 @@
               </div>
             </div>
             <div id="project-1-img" class="project-img">
-              <img src="./img/project-1/logo_transparent.png" alt="" />
+              <!-- <img src="./img/project-1/logo_transparent.png" alt="" /> -->
             </div>
           </div>
           <!-- Project 2 -->
           <div class="project-item">
             <div class="project-info">
               <h1>International Space Station Tracker</h1>
-              <h2><span>Technologies: ReactJS</span></h2>
+              <h2>
+                <span>Technologies: Jinja | Python | Flask | PostgreSQL</span>
+              </h2>
               <p>
-                A mobile-first website to get data and track the International
-                Space Station in realtime using the Open-Notify and
-                OpenStreetMap API. See who is currently aboard the ISS and when
-                it is visible from your location.
+                A full-stack web application that allows a user to get accurate
+                times that the ISS will be visible from their location. Users
+                can create an account, set their location using GPS coordinates
+                or by entering a street address that will then be converted to
+                coordinates. The user can opt in for text or email notifications
+                that will be sent out 10 - 30 minutes before a visable pass.
               </p>
               <div class="project-btns">
                 <button id="project-2-visit-site" class="project-btn">
@@ -175,18 +170,29 @@
           <!-- Project 3 -->
           <div class="project-item">
             <div class="project-info">
-              <h1>Savvy Saver</h1>
-              <h2><span>Technologies: MERN Stack</span></h2>
+              <h1>Prestige Auto</h1>
+              <h2>
+                <span>Technologies: ReactJS | NodeJS | MongoDB</span>
+              </h2>
               <p>
-                A mobile-first web application using the YNAB API to access your
-                personal bank account information to track all your income and
-                spending habits. Use the application to set saving goals, limit
-                the the amount you spend on categories like groceries,
-                entertainment, etc.
+                A fully responsive web app built for a fictional motor club. 
+                The purpose of the site is to allow members as well as prospective 
+                members to browse a fleet of cars available to rent. 
+                After signing up or logging in, a user can change their 
+                profile information as well as upload a profile picture. 
+                An admin user can create, update and remove cars from the database.
               </p>
+              <div class="project-btns">
+                <button id="project-3-visit-site" class="project-btn">
+                  Visit Site
+                </button>
+                <button id="project-3-see-code" class="project-btn">
+                  See Code
+                </button>
+              </div>
             </div>
             <div id="project-3-img" class="project-img">
-              <h1 id="coming-soon">Coming Soon</h1>
+              <img src="./img/project-3/logo_transparent.png" alt="" />
             </div>
           </div>
         </div>
@@ -217,24 +223,24 @@
             Throughout my career as a Control Systems Engineer, I learned the
             importance of having an efficient, problem-solving mindset and the
             ability to collaborate with many different team members to achieve
-            an optimal solution. My experience in the Control Systems Engineering
-            sector has equipped me with invaluable hard and soft skills that
-            greatly enhance my proficiency as a developer.
+            an optimal solution. My experience in the Control Systems
+            Engineering sector has equipped me with invaluable hard and soft
+            skills that greatly enhance my proficiency as a developer.
           </p>
           <br />
-          <p>
+          <!-- <p>
             As a proud graduate of HyperionDev Full-Stack Web Developer
             Bootcamp, based in Cape Town, South Africa, I developed the coding
             skills necessary to build thoughtful and useful products utilizing
             the MERN stack. I was able to connect with brilliant developers and
             mentors that helped shape me into the developer I am today.
-          </p>
+          </p> -->
           <br />
           <p>
             When I'm not coding, I enjoy traveling and immersing myself in the
             many beautiful cultures of the world. I also love playing guitar,
             trying different cuisines, and, of course, spending time with my
-            beautiful fiance&eacute and fur baby, Leo.
+            wife and fur baby, Leo.
           </p>
           <br />
           <p>I'd love to hear from you, so please feel free to get in touch!</p>
@@ -280,23 +286,6 @@
       </div>
     </section>
     <!-- End Contact Section -->
-
-    <!-- Resume Section -->
-    <section id="resume">
-      <div class="resume">
-        <div id="resume-content">
-          <h1 class="section-title">View <span>resume</span></h1>
-          <div id="resume-btns">
-            <button class="project-btn" onclick="openResume()">OPEN</button>
-            <button class="project-btn" onclick="printResume()">PRINT</button>
-          </div>
-          <div id="print-resume">
-            <iframe src="./public/PrintResume.pdf" id="myFrame"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Resume Section -->
 
     <!-- Footer -->
     <section id="footer">

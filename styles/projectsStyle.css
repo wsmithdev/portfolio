@@ -73,14 +73,19 @@
     object-fit: contain;
 
   }
-  #projects .project-item:hover .project-img img {
+  /* #projects .project-item:hover .project-img img {
     transform: scale(1.2);
-  }
+  } */
 
   #project-1-img {
-    background-image: url("../img/project-1/ferrari2.png");
+    background-image: url("../img/project-1/Wallet-pana.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-y: center;
   }
+
+ 
 
   #project-2-img {
     background-image: url("../img/project-2/space.png");
@@ -95,7 +100,7 @@
   }
 
   #project-3-img {
-    background-image: url("../img/project-3/code.png");
+    background-image: url("../img/project-3/ferrari2.png");
     background-size: cover;
     display: flex;
     justify-content: center;
